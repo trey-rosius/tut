@@ -1,0 +1,177 @@
+@import "mixin";
+.logo {
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+.menu {
+  display: flex;
+  margin-right: 3rem;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.btn {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
+  color: white;
+}
+.navbar {
+  display: flex;
+}
+
+.navbar-brand {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  flex: 1;
+}
+
+.appName {
+  font-weight: 800;
+  font-size: 3rem;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(#d53023de, 0.85),
+    rgba(#d53023de, 0.85)
+  );
+  color: var(--color-text);
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 24rem;
+  right: 2rem;
+  text-align: left;
+  color: white;
+  padding: 1rem;
+  align-content: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.main-img {
+  width: 16rem;
+  height: 12rem;
+  background-size: cover;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.main-price {
+  font-size: 2rem;
+
+  font-weight: 300;
+  text-transform: uppercase;
+
+  right: 2rem;
+  text-align: right;
+  color: white;
+  padding: 1rem;
+  align-content: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(#d53023de, 0.85),
+    rgba(#d53023de, 0.85)
+  );
+}
+.main-desc {
+  color: var(--color-text);
+  padding: 5px;
+  font-weight: 600;
+  font-size: 1.3rem;
+  @include ellipsis(5rem);
+}
+
+.title {
+  color: var(--color-text);
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(#1b84e6, 0.85),
+    rgba(#1b84e6, 0.85)
+  );
+  font-size: 2rem;
+
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 24rem;
+  right: 2rem;
+  text-align: left;
+  color: white;
+  padding: 1rem;
+  align-content: center;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+//ADMIN TITLE
+.admin-title {
+  font-size: 2rem;
+  color: white;
+}
+
+//ADMIN NAV BAR
+.admin-bar {
+  background-color: var(--color-primary);
+  font-size: 2rem;
+}
+
+//NAV ITEM
+
+.nav-item {
+  font-size: 1.3rem;
+  color: white;
+}
+.upload {
+  margin-top: 4rem;
+  background-color: var(--color-text);
+  width: 40rem;
+}
+.upload-side1 {
+  margin-top: 4rem;
+  background-color: var(--color-primary);
+  width: 40%;
+}
+.upload-side2 {
+  margin-top: 4rem;
+  background-color: purple;
+  width: 40%;
+}
+.uploaded-banner {
+  margin-top: 2rem;
+  background-color: var(--color-text);
+  max-width: 100%;
+  background-size: cover;
+
+  margin-bottom: 2rem;
+}
+.banner-progress {
+  margin-top: 2rem;
+  width: 40rem;
+}
+.upload-space {
+  text-align: center;
+  height: 14rem;
+  padding-top: 5rem;
+  color: white;
+  font-size: 2rem;
+}
+.googleplay-btn {
+  margin-left: 10rem;
+  width: 10rem;
+}
+.footerTitle {
+  margin-left: 10rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+.uploaded-side-banner {
+  height: 40rem;
+  width: 30rem;
+}
