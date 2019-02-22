@@ -11,6 +11,9 @@ function handleClick(e) {
 const Navigation = () => (
   <div>
     <ul className="menu">
+      <button type="button" class="btn btn-outline-primary">
+        <Link to={ROUTES.ADMIN}>Admin Log In</Link>
+      </button>
       <button
         type="button"
         onClick={handleClick}
