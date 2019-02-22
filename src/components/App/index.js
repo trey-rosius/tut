@@ -12,7 +12,7 @@ import * as ROUTES from "../../Constants/routes";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename="/tut">
+      <BrowserRouter basename="/tut/">
         <div>
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/">
