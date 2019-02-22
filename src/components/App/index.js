@@ -6,6 +6,7 @@ import BodyClass from "../body";
 import Navigation from "../Navigation";
 import Admin from "../Admin";
 import Logo from "../../img/logo.png";
+import Logo1 from "../../img/logo_1.png";
 import * as ROUTES from "../../Constants/routes";
 class App extends Component {
   render() {
@@ -14,8 +15,7 @@ class App extends Component {
         <div>
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/">
-              <img src={Logo} class="d-inline-block align-top logo" alt="" />
-              <span class="appName"> TuProfession</span>
+              <img src={Logo1} class="d-inline-block align-top logo" alt="" />
             </a>
             <Navigation />
           </nav>
