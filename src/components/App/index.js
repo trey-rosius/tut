@@ -20,7 +20,7 @@ class App extends Component {
             </a>
             <Navigation />
           </nav>
-          <BrowserRouter />;
+
           <Route exact path={ROUTES.LANDING} component={BodyClass} />
           <Route exact path={ROUTES.ADMIN} component={Admin} />
         </div>
