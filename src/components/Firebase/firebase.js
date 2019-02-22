@@ -3,12 +3,12 @@ import "firebase/firestore";
 import "firebase/storage";
 import "firebase/auth";
 const config = {
-  apiKey: "AIzaSyA4pCo2xwb4A7jIDxk0Xxi4oixojTKKoSo",
-  authDomain: "tuprofession-2e0a8.firebaseapp.com",
-  databaseURL: "https://tuprofession-2e0a8.firebaseio.com",
-  projectId: "tuprofession-2e0a8",
-  storageBucket: "tuprofession-2e0a8.appspot.com",
-  messagingSenderId: "1021418992867"
+  apiKey: "AIzaSyCvVKLJeQ8fRR9J_lbkeYVw1hTSjIfjl5E",
+  authDomain: "tuprofes.firebaseapp.com",
+  databaseURL: "https://tuprofes.firebaseio.com",
+  projectId: "tuprofes",
+  storageBucket: "tuprofes.appspot.com",
+  messagingSenderId: "1077137355187"
 };
 
 class Firebase {
