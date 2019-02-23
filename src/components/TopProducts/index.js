@@ -44,7 +44,9 @@ const Products = products =>
     <li key={user.uid} className="top-products__list">
       <img src={user.mainPhotoUrl} alt="item-pic" className="main-img" />
 
-      <span className="main-price">{"$" + user.price}</span>
+      <span className="main-price">
+        {"$" + window.nFormatter(user.price, 1)}
+      </span>
       <span className="main-desc">{user.service}</span>
     </li>
   ));

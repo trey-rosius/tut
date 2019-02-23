@@ -12,7 +12,7 @@ import * as ROUTES from "../../Constants/routes";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename="/tut/">
+      <Router>
         <div>
           <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/">
@@ -24,7 +24,7 @@ class App extends Component {
           <Route exact path={ROUTES.LANDING} component={BodyClass} />
           <Route exact path={ROUTES.ADMIN} component={Admin} />
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
